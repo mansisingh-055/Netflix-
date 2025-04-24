@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+body {
+    background-color: black;
+}
+.main{
+    background-image: url("img/netflixback.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px , 100vw);
+    height: 70vh;
+ 
+ 
+    
+
+}
+
+.main .box{
+
+    height:70vh ;
+
+    width:100% ;
+ opacity: 0.69;
+ position: absolute;
+ top: 0;
+    background-color: rgb(0, 0, 0);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 60vw;
+    align-items: center;
+    height: 100px;
+}
+nav img {
+    color: red;
+    width: 134px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    font-family: 'martel Sans' ;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+
+}
+
+.hero> :first-child{
+    font-family:'poppins' ;
+    font-weight: 900;
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+
+}
+.hero> :nth-child(2){
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+
+}
+.hero> :nth-child(3){
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+}
+
+.seperation{
+    height: 4px;
+    background-color: rgb(61, 61, 61);
+
+}
+.btn{
+    color: rgba(255, 255, 255, 0.612);
+padding: 3px 8px;
+font-weight: 400;
+cursor: pointer;
+background-color: white;
+background-color: rgba(248, 243, 243 , 0.021);
+border-radius: 4px;
+border: 1px solid white;
+}
+.btn-red{
+    font-family: sans-serif;
+background-color: red;
+color: white;
+padding: 4px 24px;
+font-size: 20px ;
+border-radius: 5px;
+font-weight: 300;
+border: 0px;
+}
+.btn-red-sm{
+background-color: red;
+color: white;
+}
+.main input{
+    padding: 7px 101px 8px 14px;
+  color: white;
+font-size: 12px ;
+border-radius: 4px;
+background-color: rgb(23, 23, 23 , 0.7);
+border: 1px  solid rgba(246, 238, 238,0.5);
+
+}
+.hero-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+
+}
+.first {
+margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  justify-content: center;
+ align-items: center;
+}
+
+.secImg img {
+max-width: 25vw;
+justify-content: center;
+align-items: center;    
+
+margin-left: 40px;
+position: absolute;
+padding-bottom: 100px;
+
+}
+.secImg video {
+position: relative;    
+max-width: 23vw;
+top: 2vw;
+left: 4vw;
+}
+
+.flex-title{
+    margin-top: 120px;
+    padding-bottom: 150px;
+
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+.first > div :first-child{
+    font-family: poppins;
+    font-size: 44px;
+    font-weight: bolder ;
+}
+.first > div :nth-child(2){
+    font-family: poppins;
+    font-size: 22px;
+}
+.secImg2{
+    padding-top:20px ;
+   max-width: 30vw;
+margin-top: 50px;
+
+}
+.seperation1{
+    height: 4px;
+    background-color: rgb(61, 61, 61);
+    margin-top: 50px;
+}
+.faq h2{
+    font-family: poppins;
+    text-align: center;
+    font-size: 48px;
+}
+.faq{
+    background: black;
+    color: white;
+    padding: 34px;
+}
+.faqbox:hover{
+    background-color: #414141;
+
+}
+.faqbox{
+    transition: all 0.3s ease-out;
+    font-family: sans-serif;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 12px auto;
+cursor: pointer;
+}
+
+footer{
+color:rgba(255,255,255,0.7) ;
+    
+max-width: 60vw;
+margin: auto;
+}
+
+
+.footer{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+color: rgba(255,255,255,0.7);
+
+}
+footer a{
+font-size: 14px;
+    color: rgba(255,255,255,0.7);
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+footer .question{
+    padding: 34px 0;
+}
+.hero-button1{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+    
+    
+    
+}
+ 
+
+@media only screen and ( max-width: 450px )  {
+
+    .flex-title{
+        margin-top: 120px;
+        padding-bottom: 150px;
+    z-index: 10;
+    }
+    .secImg video {
+        position: relative;    
+        max-width: 23vw;
+        top: 2vw;
+        left: 10vw;
+        }
+        
+        .first > div :first-child{
+            font-family: poppins;
+            font-size: 20px;
+            font-weight: bolder ;
+        }
+        .first > div :nth-child(2){
+            font-family: poppins;
+            font-size: 12px;
+        }
+
+        .flex-title{
+            margin-top: 65px;
+            padding-bottom: 65px;
+        
+        }
+        .second{
+            margin-top: 35px;
+            padding-bottom: 45px;
+        }
+        .faqbox{
+            transition: all 0.3s ease-out;
+            font-family: sans-serif;
+            font-size: 12px;
+            display: flex;
+            justify-content: space-between;
+            background-color: #2d2d2d;
+            padding: 4px;
+            max-width: 60vw;
+            margin: 6px auto;
+            cursor: pointer;
+}
+
+.faq h2{
+    font-family: poppins;
+    text-align: center;
+    font-size: 24px;
+    max-width: 60vw;
+    justify-content: center;
+    margin: auto;
+}
+.btn-red{
+    font-family: sans-serif;
+background-color: red;
+color: white;
+padding: 5px 30px;
+font-size: 13px ;
+border-radius: 5px;
+font-weight: 300;
+border: 0px;
+}
+
+nav img {
+    color: red;
+    width: 100px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero> :first-child{
+    font-family:'poppins' ;
+    font-weight: 900;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+
+}
+.hero> :nth-child(2){
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+
+}
+.hero> :nth-child(3){
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    align-items: center;
+    text-align: center;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    color: white;
+    
+    }
+    .main{
+        background-image: url("img/netflixback.jpeg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: max(1200px , 100vw);
+        height: 50vh;
+     
+     }
+
+
+}
+
+   
